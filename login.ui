@@ -88,41 +88,6 @@
     <string>user</string>
    </property>
   </widget>
-  <widget class="QComboBox" name="comboBox">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>200</y>
-     <width>79</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <item>
-    <property name="text">
-     <string>Nouvel élément</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Nouvel élément</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Nouvel élément</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Nouvel élément</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Nouvel élément</string>
-    </property>
-   </item>
-  </widget>
   <widget class="QScrollBar" name="verticalScrollBar">
    <property name="geometry">
     <rect>
