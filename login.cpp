@@ -28,7 +28,9 @@ void Widget::connect_database()
     if(!DATA.open()){
         ui->label_data->setText("error to open dataabse");
     }else
-        ui->label_data->setText("siccess open database");
+    {
+        ui->label_data->setText("success open database");
+    }
 
 }
 
@@ -45,9 +47,4 @@ void Widget::on_b1_login_clicked()
          QMessageBox::information(this, "failled_login","login failled:user or pass incorrect");
     }
 }
-
-
-
-
-
 

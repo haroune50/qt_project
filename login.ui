@@ -6,21 +6,30 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>500</width>
-    <height>356</height>
+    <width>556</width>
+    <height>322</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Widget</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(143, 240, 164);</string>
+  </property>
   <widget class="QPushButton" name="b1_login">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>240</y>
-     <width>84</width>
-     <height>23</height>
+     <x>130</x>
+     <y>220</y>
+     <width>101</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: rgb(153, 193, 241);
+font: 456 italic 18pt &quot;Ubuntu&quot;;</string>
    </property>
    <property name="text">
     <string>login</string>
@@ -29,11 +38,17 @@
   <widget class="QPushButton" name="b2_exit">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>240</y>
-     <width>84</width>
-     <height>23</height>
+     <x>340</x>
+     <y>220</y>
+     <width>101</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 10pt &quot;Ubuntu&quot;;
+font: 456 italic 18pt &quot;Ubuntu&quot;;
+background-color: rgb(153, 193, 241);</string>
    </property>
    <property name="text">
     <string>exit</string>
@@ -45,60 +60,60 @@
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>130</x>
      <y>100</y>
-     <width>151</width>
-     <height>22</height>
+     <width>311</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(110, 160, 180);</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_2">
    <property name="geometry">
     <rect>
-     <x>142</x>
-     <y>150</y>
-     <width>151</width>
-     <height>22</height>
+     <x>130</x>
+     <y>160</y>
+     <width>311</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(110, 160, 180);</string>
    </property>
   </widget>
   <widget class="QLabel" name="l2">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>160</y>
-     <width>58</width>
-     <height>15</height>
+     <x>37</x>
+     <y>170</y>
+     <width>91</width>
+     <height>20</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 10pt &quot;Ubuntu&quot;;
+font: 12pt &quot;Ubuntu&quot;;</string>
+   </property>
    <property name="text">
-    <string>pass</string>
+    <string>password</string>
    </property>
   </widget>
   <widget class="QLabel" name="l1">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>100</y>
-     <width>58</width>
-     <height>15</height>
+     <x>37</x>
+     <y>110</y>
+     <width>91</width>
+     <height>20</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 12pt &quot;Ubuntu&quot;;</string>
    </property>
    <property name="text">
-    <string>user</string>
-   </property>
-  </widget>
-  <widget class="QScrollBar" name="verticalScrollBar">
-   <property name="geometry">
-    <rect>
-     <x>407</x>
-     <y>-1</y>
-     <width>20</width>
-     <height>351</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Orientation::Vertical</enum>
+    <string>username</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_data">
@@ -112,6 +127,28 @@
    </property>
    <property name="text">
     <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 11pt &quot;Ubuntu&quot;;
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 456 italic 16pt &quot;Ubuntu&quot;;</string>
+   </property>
+   <property name="text">
+    <string>       welcome</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::TextFormat::PlainText</enum>
    </property>
   </widget>
  </widget>
